@@ -1,0 +1,29 @@
+3 cykle budowania:
+
+mvn clean
+clean jest zalecany przed kazdym budowaniem projektu
+
+clean:
+a)preclean - kroki które musza być wykonane na samym początku
+b)clean - jest to krok który wykonuje "robotę", służy do czyszczenia naszegho workspaceu projektu,
+usuwa folder target - są tam wszystkie pliki wynikowe jakie powstają podczas kompilowania projektu
+c)postclean - operacje które musza zostać wykonane aby poprawnie zakończyć czyszczenie naszego workspace
+
+-----------
+default odpowiada za budowanie naszego projektu i wysyłaniu gotowych paczek na serwer
+default:
+a)validate - sprawdza czy konfiguracja projektu jest poprawna i czy wszystkie informacje wymagane
+do zbudowania naszego projektusa dostępne
+b)compile - kompiluje nasze pliki źródłowe i wrzuca je do katalogu target
+c)test - w tym kroku uruchamiane sa wszystkie testy jednostkowe jakie mamy zdefiniowane
+d)package - odpowiada za zbudowanie docelowe paczki naszego projektu
+e)install - kopiuje naszą paczkę która znajduje się w targecie do naszego repozytorium lokalnego na komputrze
+f)deploy - bierze nasza paczke z katalogu target i jesli mamy zdefiniowane serwery w pliku pom to paczka jest
+tam kopiowana,
+
+-----------
+site
+pre-site
+site - generuje dokumentacje stworzona na podstawie projektu
+post-site
+site-deploy - też może wrzucać dokumentację na jakiś serwer

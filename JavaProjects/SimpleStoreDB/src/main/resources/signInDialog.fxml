@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<DialogPane xmlns="http://javafx.com/javafx"
+            xmlns:fx="http://javafx.com/fxml"
+            fx:controller="com.thewithel.controller.SignInDialogController"
+            prefHeight="200" prefWidth="250">
+    <headerText>
+        Sing in to your account
+    </headerText>
+    <content>
+        <GridPane>
+            <Label text="Login" GridPane.columnIndex="0" GridPane.rowIndex="0"/>
+            <TextArea fx:id="login" GridPane.columnIndex="0" GridPane.rowIndex="1" maxHeight="30"/>
+            <Label text="Password:" GridPane.columnIndex="0" GridPane.rowIndex="2"/>
+            <PasswordField fx:id="password" GridPane.columnIndex="0" GridPane.rowIndex="3" prefHeight="30"/>
+        </GridPane>
+    </content>
+</DialogPane>

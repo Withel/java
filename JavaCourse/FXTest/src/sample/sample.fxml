@@ -1,0 +1,9 @@
+
+<?import javafx.scene.layout.GridPane?>
+
+<?import javafx.scene.control.Button?>
+
+<GridPane fx:controller="sample.Controller"
+          xmlns:fx="http://javafx.com/fxml" alignment="center" hgap="10" vgap="10" prefWidth="500" prefHeight="1000">
+    <Button fx:id="toChange" text="change scene" onAction="#changeStage"/>
+</GridPane>

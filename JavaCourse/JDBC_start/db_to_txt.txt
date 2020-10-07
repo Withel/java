@@ -1,0 +1,13 @@
+Name = Tim
+Phone = 654321
+Email = tim@email.comName = Jane
+Phone = 556789
+Email = jane@somewhere.comName = Frode
+Phone = 991
+Email = frode@xlm.comName = Joe
+Phone = 111111
+Email = joe@anywhere.comName = Jane
+Phone = 9482672
+Email = jane@somewhere.comName = Frode
+Phone = 991
+Email = frode@xlm.com

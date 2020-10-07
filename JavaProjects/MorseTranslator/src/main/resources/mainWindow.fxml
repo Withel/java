@@ -1,0 +1,32 @@
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+<GridPane fx:controller="com.thewithel.Controller.Controller"
+          xmlns:fx="http://javafx.com/fxml" alignment="TOP_CENTER" hgap="10" vgap="10" >
+    <HBox GridPane.rowIndex="0" GridPane.columnSpan="2" style="-fx-background-color: lightgrey" alignment="TOP_LEFT">
+        <MenuBar style="-fx-background-color: lightgrey">
+            <Menu text="File">
+
+            </Menu>
+
+        </MenuBar>
+        <MenuBar style="-fx-background-color: lightgrey">
+            <Menu text="Help">
+
+            </Menu>
+
+        </MenuBar>
+    </HBox>
+
+    <Button fx:id="leftButton" onAction="#convertToText"
+            text="Convert to text" GridPane.rowIndex="2" GridPane.columnIndex="0"  GridPane.halignment="CENTER"/>
+    <Button fx:id="rightButton" onAction="#convertToMorse"
+            text="Convert to morse code" GridPane.rowIndex="2" GridPane.columnIndex="1"  GridPane.halignment="CENTER"/>
+
+    <TextArea fx:id="leftArea"
+            GridPane.columnIndex="0" GridPane.rowIndex="3" wrapText="true" prefHeight="400" GridPane.halignment="LEFT"/>
+    <TextArea fx:id="rightArea"
+            GridPane.columnIndex="1" GridPane.rowIndex="3" wrapText="true" prefHeight="400" GridPane.halignment="RIGHT"/>
+
+</GridPane>

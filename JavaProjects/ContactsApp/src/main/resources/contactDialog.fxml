@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<DialogPane xmlns="http://javafx.com/javafx"
+            xmlns:fx="http://javafx.com/fxml"
+            fx:controller="com.thewithel.controller.ContactDialogController"
+            prefHeight="300.0" prefWidth="450.0">
+    <headerText>
+    </headerText>
+    <content>
+        <GridPane>
+            <Label text="First Name:" GridPane.columnIndex="0" GridPane.rowIndex="0"/>
+            <TextArea fx:id="firstNameArea" GridPane.columnIndex="0" GridPane.rowIndex="1"/>
+            <Label text="Last Name:" GridPane.columnIndex="0" GridPane.rowIndex="2"/>
+            <TextArea fx:id="lastNameArea" GridPane.columnIndex="0" GridPane.rowIndex="3"/>
+            <Label text="Phone Number:" GridPane.columnIndex="0" GridPane.rowIndex="4"/>
+            <TextArea fx:id="phoneNumberArea" GridPane.columnIndex="0" GridPane.rowIndex="5"/>
+            <Label text="Email:" GridPane.columnIndex="0" GridPane.rowIndex="6"/>
+            <TextArea fx:id="emailArea" GridPane.columnIndex="0" GridPane.rowIndex="7"/>
+            <Label text="Notes:" GridPane.columnIndex="0" GridPane.rowIndex="8"/>
+            <TextArea fx:id="notesArea" GridPane.columnIndex="0" GridPane.rowIndex="9"/>
+        </GridPane>
+    </content>
+</DialogPane>

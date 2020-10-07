@@ -1,0 +1,2 @@
+File within subdirectory
+file2.txt - Dir3

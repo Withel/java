@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<DialogPane xmlns="http://javafx.com/javafx"
+            xmlns:fx="http://javafx.com/fxml"
+            fx:controller="com.thewithel.controller.RegisterDialogController"
+            prefHeight="250.0" prefWidth="250.0">
+    <headerText>
+        Register your new account
+    </headerText>
+    <content>
+        <GridPane>
+            <Label text="Login:" GridPane.columnIndex="0" GridPane.rowIndex="0" prefHeight="30"/>
+            <TextArea fx:id="login" GridPane.columnIndex="0" GridPane.rowIndex="1" prefHeight="30"/>
+            <Label text="Password:" GridPane.columnIndex="0" GridPane.rowIndex="2" prefHeight="30"/>
+            <PasswordField fx:id="password" GridPane.columnIndex="0" GridPane.rowIndex="3" prefHeight="30"/>
+            <Label text="Repeat password:" GridPane.columnIndex="0" GridPane.rowIndex="4" prefHeight="30"/>
+            <PasswordField fx:id="repeatPassword" GridPane.columnIndex="0" GridPane.rowIndex="5" prefHeight="30"/>
+            <Label text="Name:" GridPane.columnIndex="0" GridPane.rowIndex="6" prefHeight="30"/>
+            <TextArea fx:id="name" GridPane.columnIndex="0" GridPane.rowIndex="7" prefHeight="30"/>
+            <Label text="Last Name:" GridPane.columnIndex="0" GridPane.rowIndex="8" prefHeight="30"/>
+            <TextArea fx:id="lastName" GridPane.columnIndex="0" GridPane.rowIndex="9" prefHeight="30"/>
+        </GridPane>
+    </content>
+</DialogPane>

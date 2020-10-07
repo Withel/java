@@ -1,0 +1,22 @@
+<?import javafx.scene.layout.FlowPane?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.layout.TilePane?>
+
+<?import javafx.scene.shape.Rectangle?>
+<TilePane fx:controller="sample.Controller"
+          xmlns:fx="http://javafx.com/fxml" orientation="HORIZONTAL"> <!--orientation hotizontal is default-->
+    <Button text="Button One"/>
+    <Button text="Button Two"/>
+    <Button text="Button Three"/>
+    <Button text="Button Four"/>
+    <Button text="Button Five"/>
+    <Rectangle width="100" height="30" style="-fx-background-color: blue"></Rectangle>
+    <Button text="Button Six"/>
+    <Button text="Button Seven"/>
+    <Button text="Button Eight"/>
+    <Button text="Button Nine"/>
+    <Button text="Button Ten"/>
+
+
+
+</TilePane>
